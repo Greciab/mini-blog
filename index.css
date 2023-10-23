@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font: bold serif ;
+    font-family: 'DM Serif Display', serif;
+    color: #1d1d30;
+}
+
+h2{
+    font: 20px;
+     font-family: 'Quicksand', sans-serif;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+#agrupar{
+    width: 1000px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#cabecera {
+    background: #f5f4f4;
+    padding: 20px;
+}
+
+#menu{
+    background: #fbfbfb;
+    padding: 5px 15px;
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}
+
+#seccion {
+    float: left;
+    width: 660px;
+    margin: 20px ;
+}
+
+#galeria{
+    clear: both;
+    display: flex;
+    width: 620px;
+    height: 400px;
+}
+#galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+#galeria img:hover{
+    cursor: crosshair;
+    width: 200px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+#columna{
+    float: left;
+    width: 218px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #fbfbfb;
+}
+
+#pie{
+    clear:both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+}
+article{
+    background: #fbfbfb;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+article footer{
+    text-align: center;
+}
+time{
+    color:#50807e;
+}
+figcaption{
+    font: italic 14px verdana, sans-serif
+}

@@ -1,0 +1,17 @@
+:not(.texto1){
+    margin: 0px;
+}
+
+h1{
+    background: lavender;
+}
+
+p:nth-child(odd){
+    background: rebeccapurple;
+}
+
+p:last-child{
+    font-size: 20px;
+}
+
+
